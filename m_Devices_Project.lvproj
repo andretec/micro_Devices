@@ -13,12 +13,16 @@
 		<Item Name="decodex" Type="Folder" URL="../../decodex">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Decodex_2" Type="Folder" URL="../../Decodex_2">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Shutter" Type="Folder" URL="../Shutter">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Thorlabs-Vector-Move" Type="Folder" URL="../../Thorlabs-Vector-Move">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Initialization_Alignment.vi" Type="VI" URL="../Initialization_Alignment.vi"/>
 		<Item Name="micro_Devices.vi" Type="VI" URL="../micro_Devices.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -176,6 +180,7 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="secondsToTime.vi" Type="VI" URL="../../Newport-Motion-Controller/Basic-VIs/secondsToTime.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Source Distribution" Type="Source Distribution">
