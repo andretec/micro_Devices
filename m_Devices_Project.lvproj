@@ -19,6 +19,7 @@
 		<Item Name="Thorlabs-Vector-Move" Type="Folder" URL="../../Thorlabs-Vector-Move">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="estimatedTime.vi" Type="VI" URL="../estimatedTime.vi"/>
 		<Item Name="Initialization_Alignment.vi" Type="VI" URL="../Initialization_Alignment.vi"/>
 		<Item Name="micro_Devices.vi" Type="VI" URL="../micro_Devices.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -172,26 +173,13 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="Waveform Scale and Offset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Scale and Offset.vi"/>
 			</Item>
-			<Item Name="config-Motors-v2.vi" Type="VI" URL="../../decodex/Thorlabs-Vector-Move/aptTec/Thorlabs-V2/config-Motors-v2.vi"/>
 			<Item Name="Controller.ctl" Type="VI" URL="../Controller.ctl"/>
 			<Item Name="Global micro_Devices.vi" Type="VI" URL="../Global micro_Devices.vi"/>
-			<Item Name="initial-Pos-XY.vi" Type="VI" URL="../../decodex/Thorlabs-Vector-Move/aptTec/Thorlabs-V2/initial-Pos-XY.vi"/>
-			<Item Name="initial-Pos-Z.vi" Type="VI" URL="../../decodex/Thorlabs-Vector-Move/aptTec/Thorlabs-V2/initial-Pos-Z.vi"/>
-			<Item Name="initial-Pos.vi" Type="VI" URL="../../decodex/Thorlabs-Vector-Move/aptTec/Thorlabs-V2/initial-Pos.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="mComplete-Event.vi" Type="VI" URL="../../decodex/Thorlabs-Vector-Move/aptTec/Thorlabs-V2/mComplete-Event.vi"/>
-			<Item Name="move-Motor-ABS-v2.vi" Type="VI" URL="../../decodex/Thorlabs-Vector-Move/aptTec/Thorlabs-V2/move-Motor-ABS-v2.vi"/>
-			<Item Name="move-Motor-v2.vi" Type="VI" URL="../../decodex/Thorlabs-Vector-Move/aptTec/Thorlabs-V2/move-Motor-v2.vi"/>
-			<Item Name="moveZToInitialPos.vi" Type="VI" URL="../../decodex/Thorlabs-Vector-Move/aptTec/Thorlabs-V2/moveZToInitialPos.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="open-Motor-v2.vi" Type="VI" URL="../../decodex/Thorlabs-Vector-Move/aptTec/Thorlabs-V2/open-Motor-v2.vi"/>
-			<Item Name="openShutter.vi" Type="VI" URL="../../decodex/micro_Devices/Shutter/openShutter.vi"/>
-			<Item Name="secondsToTime.vi" Type="VI" URL="../../decodex/Newport-Motion-Controller/Basic-VIs/secondsToTime.vi"/>
 			<Item Name="secondsToTime.vi" Type="VI" URL="../../Newport-Motion-Controller/Basic-VIs/secondsToTime.vi"/>
-			<Item Name="swap-Motor-v2.vi" Type="VI" URL="../../decodex/Thorlabs-Vector-Move/aptTec/Thorlabs-V2/swap-Motor-v2.vi"/>
-			<Item Name="toggleShutter.vi" Type="VI" URL="../../decodex/micro_Devices/Shutter/toggleShutter.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Source Distribution" Type="Source Distribution">
